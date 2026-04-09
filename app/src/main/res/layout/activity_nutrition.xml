@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#91D9AE"
+    tools:context=".NutritionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food And Nutrition"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:textColor="#0345D9"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/image5"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/nutritionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Nutrition Guidelines\n\n1. Balanced Diet\nInclude proteins, carbs, fats, and vitamins.\n\n2. Breakfast Essentials\nOats, eggs, fruits, and whole grain toast.\n\n3. Lean Proteins\nChicken, fish, beans, and tofu.\n\n4. Healthy Snacks\nNuts, yogurt, fruits, and veggie sticks.\n\n5. Limit Processed Foods\nReduce sugar, salt, and artificial ingredients.\n\n6. Portion Control\nEat smaller, frequent meals throughout the day."
+            android:textColor="#034509"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/reward_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Get Reward" />
+
+    </LinearLayout>
+
+</ScrollView>
